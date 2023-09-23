@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Fugaz+One&family=Inter:wght@300;400;700&family=Josefin+Sans:wght@300;700&family=Lora:ital@0;1&family=Playfair+Display:ital,wght@1,500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: 'Epilogue', sans-serif;
+    
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    min-height: fit-content;
+   
+}
+
+
+
+.navbar {
+    background-color: #fbf8f800;
+    overflow: hidden;
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+.navbar a {
+    float: left;
+    color: #060404;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.027);
+}
+
+.navbar .login {
+    float: right;
+}
+
+.navbar .register {
+    float: right;
+    margin-right: 20px;
+}
+
+.hero {
+    display: flex;
+    position: absolute;
+    margin-left: 1300px;
+   padding-top: 0px;
+   top: 250px;
+}
+
+.logo {
+    display: flex;
+    margin-right: 120px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.company {
+    text-decoration-line: none;
+}
+
+.register {
+    top: 60px;
+    right: 100px;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    background-color: rgb(89,6,150);
+    color: #ccc;
+    font-size: 30px;
+    border: none;
+border-left: 10px;
+    border-radius: 100px;
+}
+
+.login {
+    top: 60px;
+    right: 30px;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    margin-left: 300px;
+    background-color: rgb(89,6,150);
+    color: #ccc;
+    font-size: 30px;
+    border: none;
+border-left: 10px;
+margin-right: 20px;
+    border-radius: 100px;
+}
+
+.login:hover {
+    color: black;
+}
+
+.register:hover {
+    color: black;
+}
+
+.remote {
+   font-size: 4.5em;
+   display: flex;
+   margin-top: 200px;
+   margin-left: 100px;
+}
+
+.team {
+    display: flex;
+    margin-left: 100px;
+}
+
+.learn {
+    top: 60px;
+    right: 10px;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    background-color: rgb(89,6,150);
+    color: #ccc;
+    font-size: 30px;
+    border: none;
+border-left: 10px;
+margin-right: 20px;
+    border-radius: 100px;
+}
+
+.more {
+    display: flex;
+    margin-left: 100px;
+}
+
+.features {
+    top: 60px;
+    right: 10px;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    background-color: rgba(90, 6, 150, 0);
+    color: #0b0909cb;
+    font-size: 30px;
+    border: none;
+border-left: 10px;
+margin-right: 20px;
+    border-radius: 100px;
+}
+
+.company {
+    top: 60px;
+    right: 10px;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    background-color: rgba(90, 6, 150, 0);
+    color: #0b0909cb;
+    font-size: 30px;
+    border: none;
+border-left: 10px;
+margin-right: 20px;
+    border-radius: 100px;
+}
+
+.career {
+    top: 60px;
+    right: 10px;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    background-color: rgba(90, 6, 150, 0);
+    color: #0b0909cb;
+    font-size: 30px;
+    border: none;
+border-left: 10px;
+margin-right: 20px;
+    border-radius: 100px;
+}
+
+.data {
+    display: flex;
+    margin-left: 100px;
+    
+}
+
+.zoom-wrapper {
+    overflow: hidden;
+}
+
+.zoom-wrapper img {
+    object-fit: cover;
+    transition: transform 0.8s;
+    height: 100%;
+}
+
+.zoom-wrapper:hover img {
+    transform: scale(1.5);
+}
+
