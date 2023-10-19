@@ -14,6 +14,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 36px;
+    background-image: linear-gradient(rgba(178, 209, 219, 0.045), rgba(255, 255, 255, 0.342)), url(/img/register.png);
 }
 
 .login-container {
@@ -92,4 +93,8 @@ body {
 
 .register a:hover {
     color: #fff;
+}
+
+footer {
+    color: #0a0c0c;
 }

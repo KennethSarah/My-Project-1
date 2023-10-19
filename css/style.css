@@ -124,7 +124,7 @@ margin-right: 20px;
     width: 200px;
     height: 50px;
     padding: 10px;
-    background-color: rgb(89,6,150);
+    background-color: rgb(96, 39, 136);
     color: #ccc;
     font-size: 30px;
     border: none;
@@ -132,6 +132,11 @@ border-left: 10px;
 margin-right: 20px;
     border-radius: 100px;
 }
+
+.learn:hover {
+    color: black;
+}
+
 
 .more {
     display: flex;
